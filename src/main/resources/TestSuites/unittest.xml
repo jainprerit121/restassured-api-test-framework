@@ -2,7 +2,7 @@
   
 <suite name="GoJeckTestSuite" verbose="1" >
  
-  <test name="API Test Assignment">
+  <test name="Unit Tests">
     <classes>
       <class name="com.gojeck.api.assignment.unit.test.FileManagerTest"/>
       <class name="com.gojeck.api.assignment.unit.test.JSONComparatorTest"/>
