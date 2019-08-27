@@ -1,4 +1,4 @@
-package com.gojeck.api.assignment.common;
+package com.gojeck.api.assignment.comparators;
 
 import java.util.HashMap;
 import java.util.List;
@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import com.gojeck.api.assignment.utils.CustomLogger;
-import com.gojeck.api.assignment.utils.JSONComparator;
 import com.gojeck.api.assignment.utils.RestAssuredAPIUtils;
 
 public class RestResponseComparator {

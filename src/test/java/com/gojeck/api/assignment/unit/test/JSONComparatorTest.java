@@ -3,7 +3,7 @@ package com.gojeck.api.assignment.unit.test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.gojeck.api.assignment.utils.JSONComparator;
+import com.gojeck.api.assignment.comparators.JSONComparator;
 
 public class JSONComparatorTest {
 

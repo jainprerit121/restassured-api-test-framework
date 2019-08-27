@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.gojeck.api.assignment.common.RestResponseComparator;
+import com.gojeck.api.assignment.comparators.RestResponseComparator;
 import com.gojeck.api.assignment.utils.CustomLogger;
 import com.gojeck.api.assignment.utils.FileManager;
 
