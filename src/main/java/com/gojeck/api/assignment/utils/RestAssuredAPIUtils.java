@@ -4,6 +4,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
+
 import io.restassured.RestAssured;
 import io.restassured.config.ConnectionConfig;
 import io.restassured.config.RestAssuredConfig;
@@ -17,13 +19,18 @@ public class RestAssuredAPIUtils {
 
 	/**
 	 * Returns response of GET API method execution based on provided query parameters
-	 * @param baseURL: End Point of the API
+	 * @param URL: End Point of the API
 	 * @param headers: Request headers
 	 * @return Response
 	 * @throws MalformedURLException 
 	 */
 	public Response GET(Map<String, String> headers, String url) 
 	{
+//		if(StringUtils.isEmpty(url)){
+//			CustomLogger.error("URL cannot be null or empty");
+//			return null;
+//		}
+		
 		try{
 			Response resp = RestAssured.given()
 					.headers(headers)

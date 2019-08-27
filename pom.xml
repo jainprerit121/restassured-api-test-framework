@@ -104,10 +104,11 @@
 					<systemPropertyVariables>
 						<file1>${file1}</file1>
 						<file2>${file2}</file2>
+						<testSuite>${testSuite}</testSuite>
 					</systemPropertyVariables>
 
 					<suiteXmlFiles>
-						<suiteXmlFile>src/main/resources/TestSuites/testng.xml</suiteXmlFile>
+						<suiteXmlFile>src/main/resources/TestSuites/${testSuite}.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 					<systemProperties>
@@ -134,8 +135,6 @@
 							<value>org.uncommons.reportng.HTMLReporter
 							</value>
 						</property>
-						<!-- <property> <name>outputDir</name> <value>target/surefire-reports/html</value> 
-							</property> -->
 					</properties>
 					<!-- <workingDirectory>target/</workingDirectory> -->
 					<testFailureIgnore>true</testFailureIgnore>

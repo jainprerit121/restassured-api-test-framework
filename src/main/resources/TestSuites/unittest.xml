@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="GoJeckTestSuite" verbose="1" >
+ 
+  <test name="API Test Assignment">
+    <classes>
+      <class name="com.gojeck.api.assignment.unit.test.FileManagerTest"/>
+      <class name="com.gojeck.api.assignment.unit.test.JSONComparatorTest"/>
+      <class name="com.gojeck.api.assignment.unit.test.RestAssuredAPIUtilsTest"/>
+    </classes>
+  </test>
+</suite>
