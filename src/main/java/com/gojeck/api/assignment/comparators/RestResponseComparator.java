@@ -13,9 +13,9 @@ import com.gojeck.api.assignment.utils.RestAssuredAPIUtils;
 
 public class RestResponseComparator {
 
-	private static final int MAX_THREADS = 10;
+	private static final int MAX_THREADS = 5;
 	private static final int THREAD_TIMEOUT = 120;
-	private static final int BATCH_SIZE = 499;
+	private static final int BATCH_SIZE = 199;
 	private static AtomicInteger mismatchCount = new AtomicInteger();
 
 	/**
