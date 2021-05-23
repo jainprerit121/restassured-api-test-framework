@@ -19,7 +19,7 @@ public class RestAssuredAPIUtils {
 
 	/**
 	 * Returns response of GET API method execution based on provided query parameters
-	 * @param URL: End Point of the API
+	 * @param url: End Point of the API
 	 * @param headers: Request headers
 	 * @return Response
 	 * @throws MalformedURLException 
@@ -50,7 +50,7 @@ public class RestAssuredAPIUtils {
 	 * if we want to continue the same framework we can implement such methods 
 	 * for other type of requests like PUT/DELETE etc.
 	 * 
-	 * @param headerKey
+	 * @param headers
 	 * @param body
 	 * @param url
 	 * @return Response of POST command
